@@ -1,0 +1,74 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url('/assets/images/login_bg.jpg')
+    no-repeat center;
+    background-size: cover;
+}
+
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title-box {
+    height: 60px;
+    background: url('/assets/images/login_title.png') no-repeat center;
+}
+.reg-box {
+    display: none;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.login-box {
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.login-button {
+    width: 350px;  
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    border: #ebebeb 1px solid;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.login-button a {
+    display: block;
+}
+
+.list-input {
+    float: left;
+    height: 35px;
+    width: 350px;
+    line-height: 35px;
+    border: #ebebeb 1px solid;
+    text-indent: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.login-input {
+    overflow: hidden;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+}

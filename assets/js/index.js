@@ -1,6 +1,6 @@
 $(function() {
     var layer = layui.layer
-    getUserinfo()  
+    getUserInfo()  
 
     $('#btnLogout').on('click',function() {
         layer.confirm('确定退出登录?', {icon: 3, title:'提示'}, function(index){
@@ -15,9 +15,9 @@ $(function() {
 })
 
 // 获取用户基本信息
-function getUserinfo() {
+function getUserInfo() {
     $.ajax({
-        methods: 'GET',
+        method: 'GET',
         url: '/my/userinfo',
         success: function(res) {
             if(res.status !== 0) {

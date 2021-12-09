@@ -59,7 +59,7 @@ $(function() {
                 // 将登录成功得到的 token 字符串，保存到 localStorage 中
                 localStorage.setItem('token', res.token)
                 // 跳转到后台主页
-                location.href = 'file:///F:/myz/%E5%89%8D%E7%AB%AF-Learning/%E9%98%B6%E6%AE%B5%E5%9B%9B/%E5%A4%A7%E4%BA%8B%E4%BB%B6%E9%A1%B9%E7%9B%AE%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/index.html'
+                location.href = '/index.html'
                 
             }
         })
